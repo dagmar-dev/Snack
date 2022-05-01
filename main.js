@@ -1,4 +1,4 @@
-document.querySelector('#check').addEventListener('click', check);
+document.querySelector('.check').addEventListener('click', check);
 
 function check() {
     const snack = document.querySelector('#snack').value.toLowerCase();
